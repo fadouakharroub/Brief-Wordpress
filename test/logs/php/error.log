@@ -1,0 +1,17 @@
+[09-Jun-2021 09:11:24 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\Youcode\Local Sites\test\app\public\wp-admin\includes\translation-install.php on line 65
+[09-Jun-2021 09:11:24 UTC] PHP Stack trace:
+[09-Jun-2021 09:11:24 UTC] PHP   1. {main}() C:\Users\Youcode\Local Sites\test\app\public\wp-admin\options-general.php:0
+[09-Jun-2021 09:11:24 UTC] PHP   2. wp_get_available_translations() C:\Users\Youcode\Local Sites\test\app\public\wp-admin\options-general.php:158
+[09-Jun-2021 09:11:24 UTC] PHP   3. translations_api() C:\Users\Youcode\Local Sites\test\app\public\wp-admin\includes\translation-install.php:126
+[09-Jun-2021 09:11:24 UTC] PHP   4. trigger_error() C:\Users\Youcode\Local Sites\test\app\public\wp-admin\includes\translation-install.php:65
+[09-Jun-2021 10:27:12 UTC] Erreur de la base de données WordPress Table 'local.wp_wc_webhooks' doesn't exist pour la requête SELECT webhook_id
+				FROM wp_wc_webhooks
+				WHERE 1=1
+				AND `status` = 'active'
+				
+				
+				
+				
+				
+				ORDER BY webhook_id DESC faite par require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, WooCommerce->init, WooCommerce->load_webhooks, wc_load_webhooks, WC_Data_Store->__call, WC_Webhook_Data_Store->get_webhooks_ids, WC_Webhook_Data_Store->search_webhooks
+[09-Jun-2021 10:27:12 UTC] Erreur de la base de données WordPress Table 'local.wp_woocommerce_attribute_taxonomies' doesn't exist pour la requête SELECT * FROM wp_woocommerce_attribute_taxonomies WHERE attribute_name != '' ORDER BY attribute_name ASC; faite par require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Post_Types::register_taxonomies, wc_get_attribute_taxonomies
